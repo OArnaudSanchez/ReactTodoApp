@@ -1,4 +1,5 @@
 import { useForm } from "../../hooks/useForm";
+import PropTypes from 'prop-types';
 
 const TodoForm = ({ addTodo }) => {
   
@@ -49,5 +50,9 @@ const TodoForm = ({ addTodo }) => {
     </form>
   );
 };
+
+TodoForm.propTypes = {
+  addTodo: PropTypes.func.isRequired
+}
 
 export default TodoForm;

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
 const TodoList = ({ todo, updateStatus, deleteTodo }) => {
 
@@ -34,5 +35,11 @@ const TodoList = ({ todo, updateStatus, deleteTodo }) => {
     </section>
   );
 };
+
+TodoList.propTypes = {
+  todo: PropTypes.object.isRequired,
+  updateStatus: PropTypes.func.isRequired,
+  deleteTodo: PropTypes.func.isRequired
+}
 
 export default TodoList;
