@@ -1,0 +1,50 @@
+
+body{
+    background-color: #EFF1F2;
+}
+.container{
+    max-width: 500px;
+}
+
+header h1, header span{
+    font-weight: bold;
+}
+
+header span{
+    color: #e9f0f5;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+textarea{
+    max-height: 50px;
+}
+
+.todo-list{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+}
+
+.todo-list h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.todo-list p{
+    font-size: 14px;
+}
+
+.todo-list input[type='checkbox']{
+    margin-left: 14px;
+}
+
+.far{
+    font-size: 20px;
+}
+
+.complete{
+    text-decoration: line-through;
+}
